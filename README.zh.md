@@ -1,5 +1,8 @@
 # dsh-plugin-deepsearch
 
+[![npm](https://img.shields.io/npm/v/dsh-plugin-deepsearch)](https://www.npmjs.com/package/dsh-plugin-deepsearch)
+[![GitHub](https://img.shields.io/badge/github-SeaViod%2Fdsh--plugin--deepsearch-181717?logo=github)](https://github.com/SeaViod/dsh-plugin-deepsearch)
+
 给 DSH 内置的 `web_search` 加一个开关：走 **DeepSeek Search API**（`POST /v1/tools/search`），还是走 DSH 默认的账号搜索。附带自动回退、设置页、侧栏开关和模型工具。
 
 [English](README.md) | 中文说明

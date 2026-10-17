@@ -4,14 +4,17 @@ Maintainer checklist for releasing this plugin: GitHub repo, optional npm publis
 verification and the [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
 registry submission.
 
-**Current status:** the `0.2.0` package is packaging-ready and its identity is set to
-`SeaViod`; the GitHub repo is **not created yet** and the package is **not published yet**.
-Work through the steps below in order; the final section is a single sign-off checklist.
+**Current status:** `0.2.0` is **published**.
 
-- [ ] Step 1 — Replace the identity placeholder
-- [ ] Step 2 — Create and push the GitHub repository
+- GitHub: <https://github.com/SeaViod/dsh-plugin-deepsearch> (public, `dsh-plugin` topic, release `v0.2.0`)
+- npm: <https://www.npmjs.com/package/dsh-plugin-deepsearch> (`latest = 0.2.0`; published 2026-10-17)
+- Marketplace submission is the only step left. awesome-dsh-plugin CI requires the repo to be at
+  least **1 day old** (the repo was created 2026-10-17), so open the PR after that.
+
+- [x] Step 1 — Verify the package identity (`SeaViod`)
+- [x] Step 2 — Create and push the GitHub repository
 - [ ] Step 3 — Verify installability from a clean profile
-- [ ] Step 4 — Publish to npm (optional, recommended)
+- [x] Step 4 — Publish to npm
 - [ ] Step 5 — Submit to awesome-dsh-plugin
 - [ ] Step 6 — Optional: screenshots
 - [ ] Sign-off checklist

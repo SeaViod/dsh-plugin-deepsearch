@@ -1,5 +1,8 @@
 # dsh-plugin-deepsearch
 
+[![npm](https://img.shields.io/npm/v/dsh-plugin-deepsearch)](https://www.npmjs.com/package/dsh-plugin-deepsearch)
+[![GitHub](https://img.shields.io/badge/github-SeaViod%2Fdsh--plugin--deepsearch-181717?logo=github)](https://github.com/SeaViod/dsh-plugin-deepsearch)
+
 Switch DSH's built-in `web_search` between the **DeepSeek Search API** (`POST /v1/tools/search`) and DSH's default account search — with automatic fallback, a settings page, a sidebar switch and a model-facing tool.
 
 English | [中文说明](README.zh.md)
