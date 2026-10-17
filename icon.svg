@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="dsh-plugin-deepsearch">
+  <title>dsh-plugin-deepsearch</title>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#0f172a"/>
+  <circle cx="27" cy="26" r="11" fill="none" stroke="#38bdf8" stroke-width="4"/>
+  <line x1="35" y1="34" x2="46" y2="45" stroke="#38bdf8" stroke-width="5" stroke-linecap="round"/>
+  <rect x="20" y="47" width="24" height="9" rx="4.5" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+  <circle cx="37" cy="51.5" r="3.5" fill="#34d399"/>
+</svg>

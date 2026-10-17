@@ -1,0 +1,5 @@
+# dsh-plugin-deepsearch: registers the host half when the package is installed as a
+# bundle. `name` is this package's npm name, resolved from the bundle's own node_modules.
+- insert:
+    - id: deepsearch
+      name: dsh-plugin-deepsearch

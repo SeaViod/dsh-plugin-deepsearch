@@ -1,0 +1,13 @@
+# Dependencies (this plugin has none at runtime; keep the folder ignored anyway)
+node_modules/
+
+# Scratch DSH homes used by ad-hoc manual verification
+.test-home/
+
+# npm pack / publish artifacts
+*.tgz
+
+# Logs
+logs/
+*.log
+npm-debug.log*

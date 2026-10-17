@@ -1,0 +1,61 @@
+{
+  "name": "dsh-plugin-deepsearch",
+  "version": "0.2.0",
+  "description": "Switch DSH's built-in web_search between the DeepSeek Search API (/v1/tools/search) and the default account search, with live fallback, a settings page and a sidebar switch.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "icon.svg"
+  ],
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.1.7-rc.1 <0.2.0 || >=0.2.0-rc.1 <0.3.0-0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "scripts": {
+    "test": "node test/package.test.mjs && node test/host.test.mjs && node test/client.test.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "deepseek",
+    "web-search",
+    "search-api",
+    "tools"
+  ],
+  "icon": "./icon.svg",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeaViod/dsh-plugin-deepsearch.git"
+  },
+  "homepage": "https://github.com/SeaViod/dsh-plugin-deepsearch#readme",
+  "bugs": {
+    "url": "https://github.com/SeaViod/dsh-plugin-deepsearch/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
